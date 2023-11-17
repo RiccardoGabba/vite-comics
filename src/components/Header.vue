@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex justify-content-between">
+  <div class="container d-flex justify-content-between p-3">
     <div>
       <img src="../images/dc-logo.png" alt="">
     </div>
