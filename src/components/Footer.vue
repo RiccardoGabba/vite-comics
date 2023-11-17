@@ -1,5 +1,5 @@
 <template>
-      <div class="bg-dark p-3">
+  <div class="bg-dark p-3">
     <div class="container">
       <i class="fa-solid fa-arrow-right" style="color: #ffffff"> </i>
       <span class="display-2 text-white p-2">Content Goes Here</span>
@@ -87,6 +87,21 @@
       </div>
     </div>
   </div>
+  <div id="bg-footer" class="p-5 d-flex">
+    <div class="container">
+      <button id="sign-up" class="btn p-3 text-white" type="submit">
+        <strong>SIGN-UP NOW!</strong>
+      </button>
+    </div>
+    <div class="d-flex">
+      <h2 class="p-2">FOLLOW US</h2>
+      <img class="p-2" src="../images/footer-facebook.png" alt="" />
+      <img class="p-2" src="../images/footer-periscope.png" alt="" />
+      <img class="p-2" src="../images/footer-pinterest.png" alt="" />
+      <img class="p-2" src="../images/footer-twitter.png" alt="" />
+      <img class="p-2" src="../images/footer-youtube.png" alt="" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -113,5 +128,15 @@ img {
 }
 li {
   list-style-type: none;
+}
+
+#sign-up {
+  color: black;
+  border: 3px solid rgb(7, 129, 249);
+  border-radius: 0px;
+}
+
+#bg-footer {
+  background-color: rgb(51, 51, 51);
 }
 </style>
